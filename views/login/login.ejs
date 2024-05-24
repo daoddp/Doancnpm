@@ -17,12 +17,17 @@
     <form action="/dologin" method="post">
       <div class="inform">
         <div class="bar">
-          <img src="login/icon1.svg" alt="" />
-          <input placeholder="Username" name="username" />
+          <img class="icon" src="login/icon1.svg" alt="" />
+          <input placeholder="Username" name="username" required />
         </div>
         <div class="bar">
-          <img src="login/icon2.svg" alt="" />
-          <input placeholder="Password" name="password" />
+          <img class="icon" src="login/icon2.svg" alt="" />
+          <input
+            placeholder="Password"
+            name="password"
+            required
+            type="password"
+          />
           <img src="login/icon3.svg" alt="" id="hidepassword" />
         </div>
         <input id="btndangki" value="ĐĂNG NHẬP" type="submit" />

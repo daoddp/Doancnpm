@@ -192,7 +192,6 @@ img {
   /* justify-self: flex-end; */
   justify-content: space-between;
   width: 600px;
-
   color: black;
   font-size: 24px;
   font-family: Inter;
@@ -296,4 +295,16 @@ input {
   font-family: Inter;
   font-weight: 500;
   word-wrap: break-word;
+}
+
+.infobar {
+  margin-top: 50px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 120px;
+  background: linear-gradient(217deg, #fad0c4 0%, #ffd1ff 100%);
+  border-radius: 23px;
+  gap: 10px;
+  grid-gap: 30px;
 }

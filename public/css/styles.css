@@ -202,3 +202,7 @@ img {
   /* float: right; */
   margin-left: 450px;
 }
+
+.icon {
+  width: 50px;
+}
